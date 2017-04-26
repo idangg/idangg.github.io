@@ -13,8 +13,8 @@ $(document).ready(function(){
    });
 
 
-   $("#modal-overlay").click(function(){
-      $("#modal-container").hide();
+   $("#modal-overlay2").click(function(){
+      $("#modal-container2").hide();
    }) 
    
 
