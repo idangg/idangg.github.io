@@ -1,0 +1,148 @@
+body {
+	font-family: 'Palanquin', sans-serif;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#left {
+    float: left;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+}
+
+.container {
+	background-color: #FFB811;
+	width: 50%;
+}
+
+#left .forimage {
+	/*padding-right: 100px;*/
+	/*padding-left: 50%;*/
+	padding-top:14%;
+
+	height: 800px;
+	width: 570px;
+}
+
+#bakingbook {
+	height: 70%;
+	width: 100%;
+	object-fit: contain;
+	padding-bottom: 50%;
+	top: 50%;
+	padding-right: 50%;
+}
+
+#about {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	object-fit: contain;
+	margin: 0 auto;
+	bottom: -3%;
+	left: 224px;
+}
+
+#about:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+
+
+#right {
+	float: right;
+
+}
+
+.bananabread {
+	padding-right: 202px;
+	padding-top: 250px;
+	opacity: .6;
+
+}
+
+#breadimg {
+	opacity:.6;
+}
+
+#breadimg:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+.recipe {
+	font-size: 30pt;
+	font-style: #A9A9A9;
+	padding-left: 175px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#modal-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    display: none;
+}
+
+
+
+#modal-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 50%; 
+}
+
+#modal-box {
+    width:500px;
+    height:400px;
+    background: white;
+    position: absolute;
+    top: 20%;
+    left: calc(50% - (40% / 2));
+    z-index: 100;
+    overflow-y: auto;
+}
+
+#modal-container2 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    display: none;
+}
+
+
+
+#modal-box2 {
+    width:500px;
+    height:400px;
+    background: white;
+    position: absolute;
+    top: 20%;
+    left: calc(50% - (40% / 2));
+    z-index: 100;
+    overflow-y: auto;
+}
+
+.blurb {
+	font-size: 12pt;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+#ingredients{
+	width:500px;
+	height:360px;
+}
+
+#directions {
+	width:500px;
+	height:500px;
+}
+
